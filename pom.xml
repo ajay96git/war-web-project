@@ -35,13 +35,13 @@
    <distributionManagement>
             <repository>
                  <id>deployment</id>
-                 <name>webapp_release</name>
-                 <url>http://localhost:8081/repository/webapp-release/</url>
+                 <name>war_web_release</name>
+                 <url>http://localhost:8081/repository/war_web_release/</url>
             </repository>
             <snapshotRepository>
                  <id>deployment</id>
-                 <name>webapp_snapshot</name>
-                 <url>http://localhost:8081/repository/webapp-snapshot/</url>
+                 <name>war_web_snapshot</name>
+                 <url>http://localhost:8081/repository/war_web_snapshot/</url>
             </snapshotRepository>         
    </distributionManagement>           
 </project>
